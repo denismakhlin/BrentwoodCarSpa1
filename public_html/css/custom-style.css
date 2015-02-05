@@ -122,14 +122,32 @@
     float: right;
     text-decoration: none;
 }
-/*video*/
-video#jumbotron {
-position: fixed; right: 0; bottom: 0;
-min-width: 100%; min-height: 100%;
-width: auto; height: auto; z-index: -100;
-background: url(polina.jpg) no-repeat;
-background-size: cover;
-	position: relative;
-	overflow: hidden;
-        
+#imgright {
+    margin-top: -17%;
+    margin-right: 5px; 
+    float: right; 
+    -moz-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    filter: FlipH; 
+    -ms-filter: "FlipH";
+}
+.jumbotron {
+background-color: lightskyblue;
+}
+#jumbotronh1 {
+    color: white;
+    font-family: 'Open Sans Condensed', sans-serif;
+    text-align: center;
+}
+/*body {
+    background-image: url('../img/carwashbackground.jpg');
+}*/
+/*#iconimg {
+    display: block;
+    margin: auto;
+}*/
+#iconimg {
+    margin-left: 23%;
 }

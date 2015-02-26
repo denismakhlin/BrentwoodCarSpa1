@@ -47,7 +47,7 @@
     transition: color .25s;
 }
 #cssmenu ul li a:hover {
-    color: black;
+    color: #31b0d5;
 }
 #cssmenu ul li a:hover:before {
     width: 100%;
@@ -71,7 +71,7 @@
     bottom: 0;
     height: 3px;
     width: 0;
-    background: lightskyblue;
+    background: #0c9eef;
     -webkit-transition: width .25s;
     -moz-transition: width .25s;
     -ms-transition: width .25s;
@@ -134,17 +134,34 @@
     -ms-filter: "FlipH";
 }
 #jumbotron1 {
-/*    video#bgvid {
-    position: fixed; right: 0; bottom: 0;
-    min-width: 100%; min-height: 100%;
-    width: auto; height: auto; z-index: -100;
-    background: url(polina.jpg) no-repeat;
-    background-size: cover;
-}*/
+    video#bgvid {
+position: absolute;
+top: 0;
+left: 0;
+height: 100%;
+width: 100%;
+z-index: -1;
+overflow: hidden;
+background-size: cover;
+background: url(polina.jpg) no-repeat top center;
+position: relative;
+overflow: hidden;
+margin: 0;
+padding: 0;
+direction: ltr;
+}
     
     
-    background-color: lightskyblue;
-    background-image: url('../img/carwashjumbotronbackground.jpg');
+/*    background-color: lightskyblue;*/
+/*    background-image: url('../img/carwashjumbotronbackground.jpg');*/
+/*background-image: url('http://www.highreshdwallpapers.com/wp-content/uploads/2012/07/Sky-Clouds-Wallpaper.jpg');*/
+/*background-image: url('http://rhinestonearmadillo.typepad.com/.a/6a00e54efdf1128833017c38b338ff970b-pi');
+    background-position: 40%;
+    no-repeat:    center; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;*/
 
 }
 #jumbotronh1 {
@@ -183,12 +200,12 @@
     font-size: 45px;
 }
 #button1 {
-    background-color: #98FB98;
     border: none;
+    background-image: url('http://karendworaczyk.files.wordpress.com/2014/02/making_big_bubbles_dsc_2521.jpg');
 }
 #button1:hover {
-    background-image: url('../img/carwashjumbotronbackground.gif');
-    background-color: #00BBFF;
+    background-image: url('../img/carwashjumbotronbackground.gif'), url('http://karendworaczyk.files.wordpress.com/2014/02/making_big_bubbles_dsc_2521.jpg');
+/*    background-color: #00BBFF;*/ 
     border: 1px solid #d9edf7;
 }
 #h1tab2 {
@@ -220,6 +237,8 @@
 }
 #jumbotron2 {
     padding: 0px;
+/*    background-image: url('../img/carwashjumbotronbackground.gif');*/
+    background-color: #d9edf7;
 }
 .btn-default {
     text-shadow: none;
@@ -227,3 +246,13 @@
 #carpic {
     float: right;
 }
+/*video#bgvid {
+    position: fixed; right: 0; bottom: 0;
+    min-width: 100%; min-height: 100%;
+    width: auto; height: auto; z-index: -100;
+    background: url(polina.jpg) no-repeat;
+    background-size: cover;
+}*/
+/*#cssmenu {
+    background-color: red;
+}*/

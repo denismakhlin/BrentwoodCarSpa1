@@ -1,4 +1,5 @@
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:700);
+
 #cssmenu {
     background: transparent;
     width: auto;
@@ -133,24 +134,7 @@
     filter: FlipH; 
     -ms-filter: "FlipH";
 }
-#jumbotron1 {
-    video#bgvid {
-position: absolute;
-top: 0;
-left: 0;
-height: 100%;
-width: 100%;
-z-index: -1;
-overflow: hidden;
-background-size: cover;
-background: url(polina.jpg) no-repeat top center;
-position: relative;
-overflow: hidden;
-margin: 0;
-padding: 0;
-direction: ltr;
-}
-    
+  
     
 /*    background-color: lightskyblue;*/
 /*    background-image: url('../img/carwashjumbotronbackground.jpg');*/
@@ -163,11 +147,22 @@ direction: ltr;
     -o-background-size: cover;
     background-size: cover;*/
 
-}
 #jumbotronh1 {
-    color: white;
+    color: lightskyblue;
+    text-shadow: 1px 1px blue;
     font-family: 'Open Sans Condensed', sans-serif;
     text-align: center;
+}
+#jumbotronh2 {
+    color: lightskyblue;
+    text-shadow: 1px 1px blue;
+    font-family: 'Open Sans Condensed', sans-serif;
+    text-align: center;
+    font-size: 20px;
+}
+    .jumbotron {
+        background-image: url('http://free.wallpaperbackgrounds.com/photography/bubbles/166035-41159.jpg');
+        background-position-y: -70px;
 }
 /*body {
     background-image: url('../img/carwashbackground.jpg');
@@ -246,13 +241,3 @@ direction: ltr;
 #carpic {
     float: right;
 }
-/*video#bgvid {
-    position: fixed; right: 0; bottom: 0;
-    min-width: 100%; min-height: 100%;
-    width: auto; height: auto; z-index: -100;
-    background: url(polina.jpg) no-repeat;
-    background-size: cover;
-}*/
-/*#cssmenu {
-    background-color: red;
-}*/
